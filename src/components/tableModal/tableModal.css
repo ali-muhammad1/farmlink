@@ -1,0 +1,53 @@
+.farm-popup-outerwrap form {
+  max-width: 500px;
+  margin: 34px auto 0px;
+}
+.form-inner-wrap {
+  padding-bottom: 20px;
+}
+.farm-popup-outerwrap .form-group {
+  margin: 14px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.farm-popup-outerwrap .form-group label {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 23px;
+  margin-bottom: 7px;
+  color: #455759;
+  font-weight: 700;
+}
+.farm-popup-outerwrap .form-group input {
+  padding: 9px 25px;
+  border-radius: 6px;
+  border: 1px solid #455759;
+}
+.farm-popup-outerwrap .form-group input::placeholder {
+  font-size: 12px;
+}
+
+.modal-content {
+  border-radius: 9px;
+}
+
+#exampleModalCenter {
+  padding-right: 0px !important;
+}
+
+.tiny-pagination-container {
+  padding-bottom: 10px;
+}
+.tiny-pagination-container .btns-number-container button.page {
+  font-size: 14px;
+  padding: 6px 8px;
+  background: #fff;
+  border: 1px solid #000;
+  margin: 0 4px;
+}
+.tiny-pagination-container .btns-number-container button.page.selected-page {
+  background-color: grey;
+  color: #fff;
+  border: 1px solid grey;
+}

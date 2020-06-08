@@ -1,0 +1,457 @@
+.commodity-outerwrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.commodity-updates {
+  height: 619px;
+  width: 100%;
+  background: #fff;
+  margin-top: 41px;
+  border-radius: 24px;
+  padding: 36px;
+  margin-bottom: 44px;
+}
+.commodity-updates-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 26px;
+}
+.commodity-updates-heading h3 {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #455759;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #455759;
+  font-family: "Nunito Sans", sans-serif;
+}
+.commodity-updates-heading-img a {
+  display: inline-block;
+}
+
+.notification {
+  height: 235px;
+  background: #fff;
+  margin-top: 41px;
+  border-radius: 24px;
+  padding: 27px 36px;
+}
+.notification h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #455759;
+  text-transform: capitalize;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 47px;
+}
+.notification ul {
+  margin-bottom: 0px;
+}
+.notification ul li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #455759;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 27px;
+}
+.notification ul li span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #455759;
+  font-family: "Nunito Sans", sans-serif;
+}
+.notification ul li span {
+  margin-right: 23px;
+}
+.notification ul li span.user-span {
+  padding-left: 48px;
+}
+.commodity-production {
+  height: 512px;
+  background: #fff;
+  margin: 36px 0 0 36px;
+  margin-left: 0;
+  border-radius: 24px;
+  padding: 27px 36px;
+  width: 100%;
+}
+.commodity-production h3 {
+  margin-bottom: 60px;
+}
+.commodity-production-innerwrap {
+  display: flex;
+}
+.bushel-prize {
+  text-align: center;
+  margin-left: 29px;
+}
+.bushel-prize h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+  color: #455759;
+  margin-bottom: 30px;
+}
+.bushel-prize h4,
+.supply-prize h4 {
+  min-height: 60px;
+}
+.bushel-arrow {
+  margin-bottom: 51px;
+}
+.bushel-prize span {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  font-family: "Nunito Sans", sans-serif;
+  display: inline-block;
+}
+.supply-prize {
+  text-align: center;
+  margin-left: 53px;
+}
+.supply-prize h4 {
+  color: #455759;
+  margin-bottom: 30px;
+}
+
+.supply-arrow {
+  margin-bottom: 51px;
+}
+.supply-prize span {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  font-family: "Nunito Sans", sans-serif;
+  display: inline-block;
+}
+.customer-response {
+  height: 388px;
+  width: 100%;
+  background: #fff;
+  margin-top: 49px;
+  border-radius: 24px;
+  padding: 19px 36px;
+  margin-bottom: 23px;
+}
+.customer-response h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #455759;
+  margin-bottom: 40px;
+}
+.customer-response input {
+  overflow: visible;
+  outline: none;
+  border: none;
+  background: #f0f0f0;
+  padding: 22px 66px 22px 22px;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+}
+.customer-response input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24;
+  color: #455759;
+  font-family: "Nunito Sans", sans-serif;
+}
+.customer-response .form-group {
+  position: relative;
+}
+.customer-response .form-group .send-btn {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+}
+.customer-response .form-group .send-btn:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.comment-img {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1640px) {
+  .bushel-prize h4,
+  .supply-prize h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .supply-arrow {
+    margin-bottom: 16px;
+  }
+  .bushel-prize span,
+  .supply-prize span,
+  .customer-response h3 {
+    font-size: 26px;
+  }
+  .bushel-prize {
+    margin-left: 10px;
+  }
+  .bushel-arrow {
+    margin-bottom: 20px;
+  }
+
+  .commodity-updates,
+  .notification,
+  .commodity-production,
+  .customer-response {
+    padding: 20px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .commodity-updates-heading h3 {
+    font-size: 21px;
+  }
+
+  .notification h3 {
+    font-size: 21px;
+    line-height: 35px;
+    margin-bottom: 23px;
+  }
+  .notification h3 {
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 23px;
+  }
+  .notification ul li {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
+  .notification ul li span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #455759;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .notification ul li span.user-span {
+    padding-left: 35px;
+  }
+
+  .commodity-production h3 {
+    margin-bottom: 42px;
+    font-size: 21px;
+  }
+  .bushel-prize {
+    margin-left: 10px;
+  }
+  .bushel-prize h4,
+  .supply-prize h4 {
+    font-size: 15px;
+    min-height: 54px;
+    line-height: 27px;
+  }
+  .bushel-arrow {
+    max-width: 19px;
+    margin: 0 auto 20px;
+  }
+  .bushel-prize span,
+  .supply-prize span,
+  .customer-response h3 {
+    font-size: 20px;
+  }
+  .supply-prize {
+    text-align: center;
+    margin-left: 21px;
+  }
+  .supply-arrow {
+    max-width: 19px;
+    margin: 0 auto 21px;
+  }
+  .bushel-prize span,
+  .supply-prize span,
+  .customer-response h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  .customer-response input {
+    padding: 12px 22px;
+  }
+  .customer-response input::placeholder {
+    font-size: 14px;
+  }
+  .customer-response .form-group .send-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    max-width: 33px;
+  }
+  .comment-img {
+    max-width: 68px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .commodity-updates-heading h3 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .commodity-updates-heading-img a {
+    display: inline-block;
+    max-width: 19px;
+  }
+  .commodity-updates {
+    margin-bottom: 29px;
+  }
+
+  .notification h3 {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+  .notification ul li {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+  .notification ul li span {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .notification ul li span.user-span {
+    padding-left: 29px;
+  }
+  .notification ul li span {
+    font-size: 12px;
+  }
+  .commodity-production h3 {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .commodity-production-innerwrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .commodity-production-img {
+    max-width: 70%;
+    margin: 0 auto 31px;
+  }
+  .tiny-pagination-container .btns-number-container button.page {
+    padding: 2px 4px !important;
+  }
+  .bushel-prize h4,
+  .supply-prize h4 {
+    min-height: 39px;
+  }
+  .bushel-prize span,
+  .supply-prize span,
+  .customer-response h3 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+  .customer-response {
+    margin-top: 24px;
+  }
+  .bushel-prize span,
+  .supply-prize span,
+  .customer-response h3 {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  .customer-response input {
+    padding: 12px 53px 12px 22px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .commodity-updates {
+    margin-top: 0px;
+  }
+  .notification ul li span.user-span {
+    padding-left: 27px;
+  }
+  .customer-response input::placeholder {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .commodity-updates-heading h3 {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .notification h3 {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 12px;
+  }
+  .notification ul li {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .commodity-production h3 {
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 640px) {
+  .analyst-view .table {
+    width: 700px;
+  }
+  .analyst-view {
+    width: 100%;
+    max-width: 95%;
+  }
+  .notification {
+    margin-top: 0px;
+  }
+  .commodity-production {
+    margin: 28px 0 0 36px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .bushel-prize {
+    margin-left: 0px;
+  }
+  .analyst-view {
+    width: 100%;
+    max-width: 91%;
+  }
+  .notification {
+    margin-top: 0px;
+  }
+  .commodity-production {
+    margin-top: 26px;
+  }
+  .header-customer .customer-img {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,30 @@
+.dashboard-outerwrap {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 15px 50px 360px;
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1199px) {
+  .dashboard-outerwrap {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 15px 50px 360px;
+    margin-top: 103px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dashboard-outerwrap {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dashboard-outerwrap {
+    padding: 0 15px 50px 300px;
+    padding-left: 15px;
+  }
+}

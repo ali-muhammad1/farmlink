@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-right: 0px !important;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+  background: #eeeff6;
+}

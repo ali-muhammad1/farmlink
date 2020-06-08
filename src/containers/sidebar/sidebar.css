@@ -1,0 +1,210 @@
+.dashboard-sidebar {
+  width: 320px;
+  background: #455759;
+  padding: 40px 31px 40px 37px;
+  height: calc(100vh - 130px);
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  margin-right: 41px;
+  position: fixed;
+  left: 15px;
+  top: 111px;
+  z-index: 999;
+}
+.sidebar-btn {
+  position: absolute;
+  right: -29px;
+  top: 15px;
+  padding: 5px 10px;
+  background: #455759;
+  border: navajowhite;
+  color: #fff;
+  font-size: 24px;
+  width: 30px;
+  height: 35px;
+  line-height: 1;
+  cursor: pointer;
+}
+.sidebar-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dashboard-sidebar ul {
+  margin-bottom: 0px;
+}
+.dashboard-sidebar ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.dashboard-sidebar ul li:first-child a {
+  color: #ebd318;
+}
+.dashboard-sidebar-img img {
+  width: 21px;
+}
+.body-outerwrap {
+  display: flex;
+}
+.bids-icon img {
+  width: 16px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 100%;
+  left: 15px !important;
+}
+.dashboard-sidebar .dropdown a.btn,
+.dashboard-sidebar .dropdown-menu a {
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  padding-right: 169px;
+  width: 100%;
+  color: #fff;
+}
+.dashboard-sidebar ul li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-left: 9px;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 16px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: unset;
+  border-color: unset;
+}
+.btn-secondary.focus,
+.btn-secondary:focus {
+  box-shadow: unset;
+}
+
+.sidebarShow {
+  left: 16px !important;
+}
+
+@media only screen and (max-width: 1366px) {
+  .dashboard-sidebar ul li a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .bids-icon {
+    max-width: 13px;
+  }
+  .dashboard-sidebar .dropdown a.btn,
+  .dashboard-sidebar .dropdown-menu a {
+    background: none;
+    font-size: 14px;
+  }
+  .dashboard-sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .dashboard-sidebar {
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .dashboard-sidebar {
+    top: 85px;
+    height: calc(100vh - 85px);
+  }
+  .dashboard-sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  .dashboard-sidebar .dropdown a.btn,
+  .dashboard-sidebar .dropdown-menu a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dashboard-sidebar {
+    left: -320px;
+    transition: 0.4s all ease;
+  }
+  .dashboard-sidebar {
+    width: 320px;
+    background: #455759;
+    padding: 34px 31px 40px 29px;
+  }
+  .dashboard-sidebar ul li a {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dashboard-sidebar {
+    width: 290px;
+    background: #455759;
+    padding: 34px 31px 40px 29px;
+  }
+  .dashboard-sidebar {
+    margin-right: 24px;
+  }
+  .dashboard-sidebar .dropdown a.btn,
+  .dashboard-sidebar .dropdown-menu a {
+    font-size: 16px;
+    padding-right: 125px;
+  }
+  .dashboard-sidebar {
+    width: 260px;
+    left: -260px;
+    padding: 34px 31px 40px 29px;
+    top: 77px;
+  }
+  .dashboard-sidebar .dropdown a.btn,
+  .dashboard-sidebar .dropdown-menu a {
+    font-size: 11px;
+    padding-right: 125px;
+  }
+  .sidebar-btn {
+    top: 21px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sidebarShow {
+    left: 15px !important;
+  }
+  .dashboard-sidebar {
+    top: 87px;
+    width: 240px;
+    left: -240px;
+  }
+}
